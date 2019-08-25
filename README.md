@@ -47,9 +47,11 @@ This is sentence after enter.
  
  
  String a="Hello"; >> This is String Literal
- String ab=new String("Hello"); >> This is creating an object
+   
+   String ab=new String("Hello"); >> This is creating an object
 
- 1. 
+ 1. String Literal
+   
  Java compiler will create a string as 2. from the backend when user define string as Literal.
  This is the direct way of creating string rather than using the 2.
  
