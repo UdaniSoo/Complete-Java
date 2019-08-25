@@ -35,4 +35,38 @@ This is sentence after enter.
  ## Chapter 3: Handling Strings and its functions in Java
  ### Two ways of defining string object - Imp in Interview point of view
  
+ * String
+ 
+ String is a one of pre-build class in Java. You can create objects of this class if you want to use strings.
+ 
+ 
+ There are two ways of defining a string,
+ 
+ 1. String Literal
+ 2. By creating an object of string.
+ 
+ 
+ String a="Hello"; >> This is String Literal
+ String ab=new String("Hello"); >> This is creating an object
+
+ 1. 
+ Java compiler will create a string as 2. from the backend when user define string as Literal.
+ This is the direct way of creating string rather than using the 2.
+ 
+ The difference between 1. and 2, is
+ 
+Java will reffering to existing object without creating a new object if you want to define an object and if its already define as a object.
+
+Example: 
+
+String a ="Hello";
+String b ="Hello";
+
+Java will not create new string as 'b'. it will point to value of a variable,
+
+
+String a =new string("Hello");
+String b =new string("Hello");
+
+This will create separate object as a and b.
  
