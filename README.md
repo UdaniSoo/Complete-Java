@@ -33,7 +33,9 @@ This is sentence after enter.
  
  
  ## Chapter 3: Handling Strings and its functions in Java
- ### Two ways of defining string object - Imp in Interview point of view
+ 
+ 
+ ### 0.1. Two ways of defining string object - Imp in Interview point of view
  
  * String
  
@@ -71,4 +73,21 @@ String a =new string("Hello");
 String b =new string("Hello");
 
 This will create separate object as a and b.
+
+## 0.2 String class and their methods
+
+Methods of string class
+
+* CharAt method:
+You can get the characters present in the indexes using this method. you can pass the index. 
+
+* IndexOf(); 
+  method can use the fnd the index of given character.
+
+
+* SubString(beginIndex,EndString) method:
+  Pulling the strings between one index to another string.
  
+* Substring(beginIndex):
+  pulling from the start of mentioned string.
+

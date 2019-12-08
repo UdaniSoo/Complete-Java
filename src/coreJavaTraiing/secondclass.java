@@ -4,7 +4,7 @@ public class secondclass {
 	
 	public void setdata()
 	{
-		System.out.println("im in the second class");
+		System.out.println("Im in the second class");
 	}
 	
 
