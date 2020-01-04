@@ -269,4 +269,19 @@ public class ParentClass {
 				c.Break();
 
  ```
-# Chapter 8  
+# Chapter 8: Polymophisam in java with overriding and overloading examples 
+## What is function overloading?   
+If the class have multiple methods with the same name, it is call fuctional overloading.  
+That methods are same by name but differ by arguments passing to function.  
+
+rules of overloading;  
+1. either argument cunt should be different  
+2. enther argument data type should be different.  
+
+How different function overriding from overloading?
+1. Overriding has same name methods.
+2. Same name.
+3. Same parameters.  
+
+## Overriding means replacing.  
+
