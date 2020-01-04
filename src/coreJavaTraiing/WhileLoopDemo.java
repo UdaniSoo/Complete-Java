@@ -25,6 +25,17 @@ public class WhileLoopDemo {
 			j--;
 		}
 		System.out.println("Second while loop ended");
+		
+		
+		int a=20;
+		
+		do
+		{
+			System.out.println(a);
+			a++;
+			
+		} while(a<30);
+		System.out.println("Do while ended");
 
 
 	}
