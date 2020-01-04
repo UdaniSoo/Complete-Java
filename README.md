@@ -105,3 +105,7 @@ Output: e
   pulling from the start of mentioned string.
 
 ## 0.3 Practise Exercise: reverse String logic-Palindrome
+
+String s="Udani";
+
+This string is in a array.
