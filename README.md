@@ -257,9 +257,10 @@ public class ParentClass {
 	{
 		System.out.println("Break is implemented");
 	}
-	```
+```
 
-  ```java
+
+```java
   public class ChildDemo extends ParentClass{
 
 	public static void main(String[] args) {
@@ -298,7 +299,7 @@ rules of overloading;
 	{
 		System.out.println(a);
 	}
-	```  
+```  
 
 How different function overriding from overloading?
 1. Overriding has same name methods.
