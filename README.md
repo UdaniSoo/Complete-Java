@@ -85,7 +85,7 @@ This will create separate object as a and b.
 ```java
 String a="hello";
 sout(a.charAt(2));
-``
+```
 User can see all the methods of string class by entring a.
 
 Methods of string class
