@@ -81,14 +81,21 @@ String b =new string("Hello");
 This will create separate object as a and b.
 
 ## 0.2 String class and their methods
+String a="hello";
+sout(a.charAt(2));
+
+User can see all the methods of string class by entring a.
 
 Methods of string class
 
 * CharAt method:
 You can get the characters present in the indexes using this method. you can pass the index. 
-
+sout(a.charAt(1));
+Output: e
 * IndexOf(); 
   method can use the fnd the index of given character.
+  sout(a.indexOf("e"));
+  Output: 1
 
 
 * SubString(beginIndex,EndString) method:
@@ -97,3 +104,4 @@ You can get the characters present in the indexes using this method. you can pas
 * Substring(beginIndex):
   pulling from the start of mentioned string.
 
+## 0.3 Practise Exercise: reverse String logic-Palindrome
