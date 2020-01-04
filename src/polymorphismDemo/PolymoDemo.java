@@ -9,6 +9,7 @@ public class PolymoDemo extends ParentClass {
 		p.getdata(2);
 		p.getdata("Udani");
 		p.getdata(3, 5);
+		//Overriding
 		p.sendData();
 
 	}

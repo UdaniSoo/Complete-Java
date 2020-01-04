@@ -277,6 +277,28 @@ That methods are same by name but differ by arguments passing to function.
 rules of overloading;  
 1. either argument cunt should be different  
 2. enther argument data type should be different.  
+  
+``` java
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Overloading
+		PolymoDemo p=new PolymoDemo();
+		p.getdata(2);
+		p.getdata("Udani");
+
+	}
+	
+	//overloading
+	public void getdata(int a)
+	{
+		System.out.println(a);
+	}
+	
+	public void getdata(String a)
+	{
+		System.out.println(a);
+	}
+	```
 
 How different function overriding from overloading?
 1. Overriding has same name methods.
@@ -284,5 +306,39 @@ How different function overriding from overloading?
 3. Same parameters.  
 Overriding means replacing.  
 
+```java
+public class ParentClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void sendData()
+	{
+		System.out.println("Data sending by parent");
+	}
+
+}
+```
+
+```java
+public class PolymoDemo extends ParentClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PolymoDemo p=new PolymoDemo();
+			//Overriding
+    p.sendData();
+
+	}
+	//Overriding
+	public void sendData()
+	{
+		System.out.println("Data sending by child");
+	}
+
+}
+```
 # Chapter 9: Learn Arrays  
 
