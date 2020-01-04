@@ -25,7 +25,7 @@ public class firstclass {
 		//Calling variables.. 
 		System.out.println("calling Variable from outside the main: " +fc.a);
 		
-		//Calling data from another java class(secondclass.java)
+		//Calling a method of another java class(secondclass.java)
 		secondclass sn=new secondclass();
 		sn.setdata();
 	}

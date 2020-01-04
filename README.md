@@ -1,24 +1,30 @@
 # Complete-Java
 Complete Java for Automation Testers from Scratch
 
-## This is second title.
-hfh
-### This is third title.
-
-This is once sentence.  
-This is sentence after enter.
-
-* ONe bullet.
-* Two bullet.
- * Bullet in bullet.
- 
  ## Chapter 2: Understanding classes, Objects and their usage in Java
- 
+
+ Method:  
+ Method is a block in our java class.  
+ public void getData()  
+	{  
+		System.out.println("I am in a method");  
+	}  
+
+  void: not returning anything.  
+  Int: returning integer.
+  String: returning strings.  
+
+  Why methods?
+  Methods helps to reduce the lines of code and reduce duplicates. We can write lines of codes which runing in multiple places in a one block. This block is called a method. Then this block can be reuse by calling the name of the block(Method name).  
+
+  Methods are return outside the main method and inside the class. So this method is not calling if you run the code now. There is no way the main can see the method outside of the main. We need a way to call this methods. So  you can create a object and call this method.  
+
  ### Importance of classes and objects in java
  
  * Object
    
-   Objects are the instance/reference of a class. We can call the methods/variables present in a class with the help of objects.
+   Objects are the instance/reference of a class. We can call the methods/variables present in a class with the help of objects. There is no way that main method will come to know about the methods/variables which are present out of the main method.  
+   
  
  Syntax:
  ClassName ObjectName=New ClassName();
