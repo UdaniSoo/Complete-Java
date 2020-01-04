@@ -282,6 +282,7 @@ How different function overriding from overloading?
 1. Overriding has same name methods.
 2. Same name.
 3. Same parameters.  
+Overriding means replacing.  
 
-## Overriding means replacing.  
+# Chapter 9: Learn Arrays  
 
