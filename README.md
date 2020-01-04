@@ -342,4 +342,26 @@ public class PolymoDemo extends ParentClass {
 }
 ```
 # Chapter 9: Learn Arrays  
+## What are Arrays and their usage in Java programmes  
+what is a multidimension array?  
+      C0 C1 C2
+Row0: 2  3  5  
+Row1: 6  4  1  
+Row2: 7  9  8  
+
+each argument takes X axis and Y axis. 2 is 0th row oth column. This is called multidimension array. We are viewing this array from multi perspective.  
+To diclar a multidimension array you need to declare x and y;  
+
+```java
+Syntax:
+int a[][]=new int[3][3];
+
+a[raw] [column]
+```
+
+What is the simple way of defining multidenmension array?   
+
+```java
+ int b[][]= {{2,4,5},{3,4,7}};
+```
 
