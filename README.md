@@ -278,7 +278,7 @@ rules of overloading;
 1. either argument cunt should be different  
 2. enther argument data type should be different.  
   
-``` java
+```java
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Overloading
@@ -298,7 +298,7 @@ rules of overloading;
 	{
 		System.out.println(a);
 	}
-	```
+	```  
 
 How different function overriding from overloading?
 1. Overriding has same name methods.
