@@ -5,11 +5,12 @@ Complete Java for Automation Testers from Scratch
 
  Method:  
  Method is a block in our java class.  
+ ```java
  public void getData()  
 	{  
 		System.out.println("I am in a method");  
 	}  
-
+```
   void: not returning anything.  
   Int: returning integer.
   String: returning strings.  
@@ -25,18 +26,18 @@ Complete Java for Automation Testers from Scratch
    
    Objects are the instance/reference of a class. We can call the methods/variables present in a class with the help of objects. There is no way that main method will come to know about the methods/variables which are present out of the main method.  
    
- 
+ ```java
  Syntax:
  ClassName ObjectName=New ClassName();
-   
+ ```  
    New: allocating the memory.
  
  How to access the method of class using created object,
- 
+ ```java
  Syntax:
  
  ObjectName.MethodinClass;
- 
+ ```
  
  ## Chapter 3: Handling Strings and its functions in Java
  
@@ -53,11 +54,11 @@ Complete Java for Automation Testers from Scratch
  1. String Literal
  2. By creating an object of string.
  
- 
+ ```java
  String a="Hello"; >> This is String Literal
    
-   String ab=new String("Hello"); >> This is creating an object
-
+ String ab=new String("Hello"); >> This is creating an object
+```
  1. String Literal
    
  Java compiler will create a string as 2. from the backend when user define string as Literal.
@@ -68,22 +69,23 @@ Complete Java for Automation Testers from Scratch
 Java will reffering to existing object without creating a new object if you want to define an object and if its already define as a object.
 
 Example: 
-
+```java
 String a ="Hello";
 String b ="Hello";
-
+```
 Java will not create new string as 'b'. it will point to value of a variable,
 
-
+```java
 String a =new string("Hello");
 String b =new string("Hello");
-
+```
 This will create separate object as a and b.
 
-## 0.2 String class and their methods
+## 0.2 String class and their methods  
+```java
 String a="hello";
 sout(a.charAt(2));
-
+``
 User can see all the methods of string class by entring a.
 
 Methods of string class
@@ -111,10 +113,10 @@ String s="Udani";
 This string is in a array. if sout(arr[0]) then it will print U.  
 # Chapter 4
 ## How for loops works-with example demonstration  
-
+```java
 Syntax:  
 		for(initialization; condition; increment)
-
+```
 ## When should I use While loop?  
 
 While loop will run unill the con dition gets true.
@@ -127,13 +129,13 @@ while(booleanExpression)
 }  
 ```
 Do While loop,
-
+```java
 Syntax;
 Do
 {
 
 } While()  
-
+```
 ## Explanation on Nested for loop  
 
 nested for loop means, one for loop within another for loop.
