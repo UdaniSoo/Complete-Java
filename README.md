@@ -108,4 +108,33 @@ Output: e
 
 String s="Udani";
 
-This string is in a array.
+This string is in a array. if sout(arr[0]) then it will print U.  
+# Chapter 4
+## How for loops works-with example demonstration  
+
+Syntax:  
+		for(initialization; condition; increment)
+
+## When should I use While loop?  
+
+While loop will run unill the con dition gets true.
+```java
+Syntax:  
+while(booleanExpression)  
+{  
+  
+  Operation;
+}  
+```
+Do While loop,
+
+Syntax;
+Do
+{
+
+} While()  
+
+## Explanation on Nested for loop  
+
+nested for loop means, one for loop within another for loop.
+
