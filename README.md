@@ -227,5 +227,46 @@ public class AustraliaTraffic implements CentralTraffic {
 
   ```
 
+One class can implement more than one interface.  
+
+# Chapter 7  
+
+## Usage of inheritance in java  
+Vehicle is a existing class. We can consider this as a parent. Vehical already has implementation for their methods. 
+Create a new vehicle called  NewVehicle. This new vehical has same method as Vehicle. So we don't need to write again and we can use methods in Vehicle class.
+
+Vehicle:  
+Colour
+Gear  
+Engine  
+Breaks  
   
-One class can implement more than one interface.
+NewVehicle:  
+EnginePower
+
+
+```java
+public class ParentClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void Break()
+	{
+		System.out.println("Break is implemented");
+	}
+	```
+
+  ```java
+  public class ChildDemo extends ParentClass{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ChildDemo c=new ChildDemo();
+				c.Break();
+
+ ```
+# Chapter 8  
