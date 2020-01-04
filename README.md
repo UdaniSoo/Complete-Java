@@ -363,5 +363,6 @@ What is the simple way of defining multidenmension array?
 
 ```java
  int b[][]= {{2,4,5},{3,4,7}};
-```
+```  
+
 
