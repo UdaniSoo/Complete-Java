@@ -140,3 +140,92 @@ Do
 
 nested for loop means, one for loop within another for loop.
 
+# Chapter 6
+
+What is interface?
+
+Example: Traffic light  
+
+Common rules:
+Green: Move  
+Red: Stop  
+Yellow: Wait  
+
+Those are common rules that should follow all countries when implement the traffic light system.
+
+Australia is going to implement a traffic light system.  They should implement above rules in their system.  So Rules are equal to Interfaces and Australia equals to class.  
+
+```java  
+Interface
+{
+  Green  
+  Red  
+  Yellow
+}
+
+Australia
+{
+  Grean();
+}
+```
+Clases should present methods mentioned in interface.  
+  
+How to link a interface and class?  
+Create a Interface under package.
+Define methods inside the interface.
+Create a class.
+Change the class name section to,  
+public class AustraliaTraffic implements CentralTraffic
+Now class name an error will display for the class name.  
+mouse hoven and select Add unimplemented methods.  
+Now all the methods will automatically display inside the class.  
+  
+```java
+public interface CentralTraffic {
+	
+	public void GreenGo();
+	public void RedStop();
+	public void YellowFlash();
+
+}
+```
+```java
+public class AustraliaTraffic implements CentralTraffic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Calling methods of the interface CentralTraffic
+		CentralTraffic a=new AustraliaTraffic();
+		a.GreenGo();
+		a.RedStop();
+    a.YellowFlash();
+
+  }
+  @Override
+	public void GreenGo() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("GreenGo implementation");
+		
+	}
+
+	@Override
+	public void RedStop() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Red Stop implementation");
+		
+	}
+
+	@Override
+	public void YellowFlash() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("YellowFlash implementation");
+	}
+
+  ```
+
+  
+One class can implement more than one interface.
