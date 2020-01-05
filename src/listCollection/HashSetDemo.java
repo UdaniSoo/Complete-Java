@@ -14,6 +14,8 @@ public class HashSetDemo {
 		hs.add("Sri Lanka");
 		hs.add("Sri Lanka");
 		System.out.println(hs);
+		
+		//this will return true
 		System.out.println(hs.remove("Singapore"));
 		System.out.println(hs.isEmpty());
 		System.out.println(hs.size());
