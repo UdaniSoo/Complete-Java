@@ -387,8 +387,8 @@ You can access to any value any index in a arraylist.
 Arraylist is accepting duplicate values.
   
 ```java
-		Syntax: 
-		ArrayList<String> a=new ArrayList<String>();
+Syntax: 
+ArrayList<String> a=new ArrayList<String>();
 ```
 ## Implementation of Set interface  
 
