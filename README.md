@@ -401,6 +401,9 @@ Diff between List and Set,
 Set interface doesn't accept the duplicate values.  
 There is no guarantee elements stored in sequential order. They may stored in random order.  
 
+```java
+HashSet<String> hs=new HashSet<String>();
+```
 
 
 
