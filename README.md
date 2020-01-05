@@ -405,9 +405,16 @@ There is no guarantee elements stored in sequential order. They may stored in ra
 HashSet<String> hs=new HashSet<String>();
 ```  
 
+Iterator:
+```java
+Iterator<String> i=hs.iterator(); //traverse though all elements of hs.
+```
 
-
-
-
+hasNext();
+if iterator has something go inside.  
 
 # Chapter 16: Hash map and hash tables in java  
+ Each key an value will store as an Set index.
+
+ Map.Entry:  
+ This is helping to separate values from map. This will get the key and the value from the hash map.
