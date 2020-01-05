@@ -439,7 +439,7 @@ HashTable is the onlyclass other than vector which uses enumerator to iterate th
 Types of access modifiers,
 1. Public  
 2. Private  
-3. Projected  
+3. Protected  
 4. Default  
 
 ### Public  
@@ -448,7 +448,7 @@ If variable/methods are public, then you will have access across all the package
 ### Private  
 if the method/variavle define as private, You can't access those outside the class of same package as well.  
 
-### Projected  
+### Protected  
 If the method/variables defined as projected, you can access those in subclasses only. Only child classes which extended parent class can only access protected methods/variables(When you inherit). This applies to other packages. Protected can access whithin the same package as public.
 
 ### Default  
