@@ -385,6 +385,21 @@ Arraylist and Array dif
 Arraylist has a dinamic size where you can increase and remove at any time. But Array is a fixed size one and you have to use defined size. 
 You can access to any value any index in a arraylist.
 Arraylist is accepting duplicate values.
+  
+```java
+		Syntax: 
+		ArrayList<String> a=new ArrayList<String>();
+```
+## Implementation of Set interface  
+
+Below 3 classes implements the List interface
+- HasSet
+- TreeSet
+- LinkedHashSet
+
+Diff between List and Set,  
+Set interface doesn't accept the duplicate values.  
+There is no guarantee elements stored in sequential order. They may stored in random order.  
 
 
 
