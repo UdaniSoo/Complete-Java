@@ -460,7 +460,7 @@ void abc()
 	System.out.println("Hello");
 }  
 ```
-Summary:
+Summary:  
 Default: Access same package of classes
 Protected: Access same package of classes + sub classess can access.  
 
