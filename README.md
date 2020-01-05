@@ -418,3 +418,49 @@ if iterator has something go inside.
 
  Map.Entry:  
  This is helping to separate values from map. This will get the key and the value from the hash map.
+
+## Difference between HashMap and HashTable
+1. Synchronization or Thread Safe:  
+HasMap: is non synchronized and thread safe.   
+if 5 diffrent programes accessing the hashmap. it wil be accessible one at a time.  
+HashTable: One programe has to wait until the other program releases the hashmap resources.  
+When to use HashMap?  
+if your application do not require any multi-threading task, in other words hashmap is better for non-threading applications. Hash table shouldbe used in multithreading applications.  
+2. Null keys and null values.  
+Hashmap allows one null key and any number of null values. while hashtable do not allow null keys and null values in tne hashtable object.  
+3. Iterating the values:
+Hashmp object values are iterated by using iterator.  
+HashTable is the onlyclass other than vector which uses enumerator to iterate the values of HashTable object.  
+
+# Chapter 18: Encapsulation with practical examples.  
+
+## Importance of access modifiers
+
+Types of access modifiers,
+1. Public  
+2. Private  
+3. Projected  
+4. Default  
+
+### Public  
+If variable/methods are public, then you will have access across all the packages.  
+
+### Private  
+if the method/variavle define as private, You can't access those outside the class of same package as well.  
+
+### Projected  
+If the method/variables defined as projected, you can access those in subclasses only. Only child classes which extended parent class can only access protected methods/variables(When you inherit). This applies to other packages. Protected can access whithin the same package as public.
+
+### Default  
+Your java class will think access modifier is the "default" if you did't mention the access modifier type. If it is default, you can access that from anywhere in your package.  
+Example:  
+```java
+void abc()
+{
+	System.out.println("Hello");
+}  
+```
+Summary:
+Default: Access same package of classes
+Protected: Access same package of classes + sub classess can access.  
+
