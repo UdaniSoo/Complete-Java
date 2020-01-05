@@ -364,5 +364,31 @@ What is the simple way of defining multidenmension array?
 ```java
  int b[][]= {{2,4,5},{3,4,7}};
 ```  
+# Chapter 15: Java Collections
+## What are java collection?  
+The java collection is a collection of classes and interfaces which helps in storing and processing the data efficiently. This framework has several usefull classes which has tons of useful functions which makes progamming easier.  
+
+Collections:
+1. List  
+2. Set
+3. Map
+
+## List
+A list is and ordered collection(sometimes called a sequence),lists may contains duplicate elements. Below are classes implement list interfaces, 
+- ArrayList  
+- LinkedList  
+- Vector  
+
+Above are the 3 classes which implements "List" interface. List provides some setup methods. where above 3 classes use list methods in their classes.  
+All the classses hich implements list interface can duplicate values.  
+Arraylist and Array dif
+Arraylist has a dinamic size where you can increase and remove at any time. But Array is a fixed size one and you have to use defined size. 
+You can access to any value any index in a arraylist.
+Arraylist is accepting duplicate values.
 
 
+
+
+
+
+# Chapter 16: Hash map and hash tables in java  
