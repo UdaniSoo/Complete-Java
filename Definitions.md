@@ -31,7 +31,7 @@ public class Dog extends Mammal {
 #### Encapsulation
 * In encapsulation the data of a class is hidden from the user and can only be accessed or changed by methods.
 * To achieve encapsulation in Java −
-  * Declare the variables of a class as private.
+  * Use correct access modifiers for attributes.
   * Provide public setter and getter methods to modify and view the variables values.
   
   #### Difference between a class and an interface
